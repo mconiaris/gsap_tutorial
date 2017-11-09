@@ -1,2 +1,3 @@
 # gsap_tutorial
-Testing the new remote to Github.
+
+##https://greensock.com/get-started-js "The GreenSock Animation Platoform Tutorial"
