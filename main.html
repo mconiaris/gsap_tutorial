@@ -22,7 +22,8 @@
 		TweenLite.to(photo, 10, {height:300});
 		//tween the element with ID of "myID"
 		TweenLite.to("#photo-caption", 4, {backgroundColor:"#87CEFA", width:"50%", top:"100px", ease:Power2.easeInOut});
-
+		//animate from 0 to whatever the scaleX/scaleY is now
+		TweenLite.from(photo, 1.5, {scaleX:0, scaleY:0});
 	</script>
 </body>
 </html>
