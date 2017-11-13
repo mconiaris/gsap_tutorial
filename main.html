@@ -30,11 +30,8 @@
 		var photo3 = document.getElementById("photo3");
 		
 		var myCaptionTween1 = TweenLite.to("#photo-caption", 4, {backgroundColor:"#87CEFA", width:"50%", top:"100px", ease:Power2.easeInOut});
-		
-		TweenLite.to(photo, 5, {width:300});
-		TweenLite.to(photo, 10, {height:300});
-		//tween the element with ID of "myID"
-		
+		var myPhotoTween1a = TweenLite.to(photo, 5, {width:300});
+		var myPhotoTween1b = TweenLite.to(photo, 10, {height:300});		
 		
 		//animate from 0 to whatever the scaleX/scaleY is now
 		TweenLite.from(photo2, 10, {scaleX:0, scaleY:0});
