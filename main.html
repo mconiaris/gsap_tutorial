@@ -15,6 +15,10 @@
 		<p id="photo-caption">Testing the Photo</p>
 		<img id="photo" src="NYCFC-DCUj55MUIAAdWfT.jpg">
 	</div>
+	<div>
+		<p id="photo-caption">Testing the Photo</p>
+		<img id="photo2" src="NYCFC-DCUj55MUIAAdWfT.jpg">
+	</div>
 	<script type="text/javascript">
 		var photo = document.getElementById("photo");
 		console.log(photo);
@@ -22,8 +26,10 @@
 		TweenLite.to(photo, 10, {height:300});
 		//tween the element with ID of "myID"
 		TweenLite.to("#photo-caption", 4, {backgroundColor:"#87CEFA", width:"50%", top:"100px", ease:Power2.easeInOut});
+
+		var photo2 = document.getElementById("photo2");
 		//animate from 0 to whatever the scaleX/scaleY is now
-		TweenLite.from(photo, 1.5, {scaleX:0, scaleY:0});
+		TweenLite.from(photo2, 1.5, {scaleX:0, scaleY:0});
 	</script>
 </body>
 </html>
